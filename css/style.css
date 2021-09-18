@@ -134,3 +134,47 @@ header .header-link ul li {
   background-color: #b80a13;
   transition: 1.5s;
 }
+.help {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.help-container {
+  display: flex;
+  gap: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.help-container .gallery-1 {
+  width: 50%;
+  text-align: center;
+}
+
+.help .help-container p {
+  padding: 90px;
+  font-size: 21px;
+}
+
+.help-container .gallery-1 .img-container-1 img {
+  width: 100%;
+}
+
+.help-container .gallery-2 {
+  width: 50%;
+}
+.help-container .gallery-2 h2 {
+  font-size: 31px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.help-container .gallery-2 h3 {
+  font-size: 25px;
+  color: #e71a23;
+  padding-bottom: 80px;
+}
+.help-container .gallery-2 .img-container-1 img {
+  width: 100%;
+}
