@@ -20,7 +20,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  font-family: "Roboto", "Arial", "sans-serif";
+  color: #999999;
 }
 
 header .header-link ul {
@@ -37,7 +38,8 @@ header .header-link ul li {
   margin-right: 10px;
 }
 .green-text {
-  color: black;
+  color: #999999;
+  font-family: "Roboto", "Arial", "sans-serif";
 }
 .container {
   width: 90%;
@@ -62,4 +64,73 @@ header .header-link ul li {
   border: 4px solid white;
   transform-origin: left center;
   margin: 30px auto 0 0;
+}
+.house-repair hr {
+  height: 10px;
+  width: 40%;
+  background: #fff;
+  border: none;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.icons-container p {
+  font-size: 16px;
+}
+.icons-container img {
+  width: 155px;
+}
+.book-now {
+  width: 100%;
+  padding: 100px;
+  background-color: rgb(235, 230, 230);
+  text-align: center;
+}
+
+.book-now-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.book-now-container h5 {
+  font-size: 20px;
+  color: #999999;
+  font-weight: lighter;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+.book-container h1 {
+  font-size: 45px;
+  color: #111111;
+  font-weight: bold;
+}
+
+.book-now-container p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: #111111;
+  padding: 30px;
+}
+
+.book-now .button-container input {
+  font-size: 15px;
+  background-color: #e71a23;
+  padding: 16px 42px;
+  color: #ffff;
+  font-weight: bolder;
+  border-radius: 5px;
+  border: none;
+}
+
+.book-now .button-container input:hover {
+  background-color: #b80a13;
+  transition: 1.5s;
 }
