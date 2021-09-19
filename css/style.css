@@ -22,7 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: "Roboto", "Arial", "sans-serif";
-  color: #999999;
+  color: white;
 }
 
 header .header-link ul {
@@ -417,7 +417,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-family: "Roboto", "Arial", "sans-serif";
-    color: #999999;
+    color: white;
   }
 
   header .header-link ul {
@@ -810,7 +810,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-family: "Roboto", "Arial", "sans-serif";
-    color: #999999;
+    color: white;
   }
 
   header .header-link ul {
