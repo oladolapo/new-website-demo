@@ -29,6 +29,9 @@ header .header-link ul {
   list-style-type: none;
   display: flex;
 }
+.house-repair {
+  color: white;
+}
 
 header .header-link ul a {
   text-decoration: none;
@@ -38,7 +41,7 @@ header .header-link ul a {
 header .header-link ul li {
   margin-right: 10px;
 }
-.green-text {
+.logo {
   color: #999999;
   font-family: "Roboto", "Arial", "sans-serif";
 }
@@ -405,6 +408,9 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-positon: center;
+  }
+  .house-repair {
+    color: white;
   }
   header {
     display: flex;
@@ -795,6 +801,9 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-positon: center;
+  }
+  .house-repair {
+    color: white;
   }
   header {
     display: flex;
